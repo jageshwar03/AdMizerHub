@@ -367,7 +367,7 @@ font-size: 2vh;
     height: 65vh;
     width: 30vw;
     background-color: rgb(225, 129, 129);
-     border: 0.5vh solid black;
+    
     /* box-shadow: -0.2vh -0.001vh 1vh 0.9vh rgb(46, 55, 55) ; */
     border-bottom-left-radius: 15vh;
     border-top-left-radius:15vh ;
@@ -381,7 +381,7 @@ font-size: 2vh;
     height: 65vh;
     width: 30vw;
     background-color:rgb(78, 185, 185);
-    border: 0.5vh solid black;
+    
     border-bottom-left-radius: 15vh;
     border-top-left-radius:15vh ;
     border-bottom-right-radius: 15vh;
