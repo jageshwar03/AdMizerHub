@@ -831,6 +831,10 @@ font-size: 2vh;
     background-color: rgb(14, 24, 24);
     border-radius: 5vh;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .page8_part1{
@@ -890,9 +894,9 @@ display: flex;
  padding-left: 3vh;
 }
   .page8_part3_left_part1 .minus_div1 p{
-    background-color: #c5b4b4;
-    padding-left: 2vh;
-    padding-right: 2vh;
+    background-color: #a000a6;
+    padding-left: 1vh;
+    padding-right: 1vh;
     padding-bottom: 1vh;
     padding-top: 1vh;
     border-radius: 2vh;
@@ -955,6 +959,7 @@ display: flex;
  justify-content: start;
  align-items: center;
  padding-left: 3vh;
+ margin: auto;
 }
 .minus_div1{
     display: flex;
@@ -965,9 +970,9 @@ display: flex;
 }
 
 .sign_div1 p{
-    background-color: rgb(207, 194, 179);
-    padding-left: 2vh;
-    padding-right: 2vh;
+     background-color: #a000a6;
+    padding-left: 1vh;
+    padding-right: 1vh;
     padding-bottom: 1vh;
     padding-top: 1vh;
     border-radius: 2vh;
@@ -1071,7 +1076,7 @@ display: flex;
 .page8_part4{
     display: flex;
    justify-content: center;
-   padding-top: 7vh;
+   padding-top: 3vh;
 }
 
 .chat_div{
@@ -1135,14 +1140,14 @@ display: flex;
     /*  footer part start here  */
        
     .footer{
-        height: 70vh;
+        height: 60vh;
         width: 99vw;
         background-color: #000000;
         color: white;
     }
 
     .footer_top{
-    height: 50vh;
+    height: 40vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -1169,7 +1174,7 @@ display: flex;
      .footer_top .footer_top_left h4{
         padding-top: 20px;
         padding-left: 200px;
-        font-size: 25px;
+        font-size: 30px;
      }
 
   .footer_top .footer_top_right{
@@ -1197,7 +1202,7 @@ display: flex;
     } */
 
     .footer_bottum{
-    height: 20%;
+    height: 10vh;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -1208,10 +1213,10 @@ display: flex;
     }
 
     .footer_bottum_left{
-
+     
     }
-#privacy_policy{
-    color: blue;
+#privacy_policy a{
+    color: rgb(0, 193, 223);
 }
 
     .footer_bottum_right{
@@ -1227,6 +1232,12 @@ display: flex;
 
     .ri-twitter-fill{
         font-size: 5vh;
+    }
+    .ri-whatsapp-line{
+        font-size: 5vh;
+    }
+    .ri-facebook-circle-line{
+     font-size: 5vh;
     }
     /* footer part end here */
 
